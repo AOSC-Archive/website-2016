@@ -1,0 +1,112 @@
+body {
+	padding: 0;
+	margin: 0;
+	transition: all 300ms ease;
+}
+
+header.global {
+	padding: 0;
+	margin: 0 auto;
+}
+
+footer.global {
+	line-height: 22px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+h1 {
+	padding: 0;
+	margin: 26px 0 35px;
+}
+
+.global h2 {
+	margin: 18px 0;
+}
+
+.global a {
+	text-decoration: none;
+}
+
+.cont {
+	margin: 0;
+}
+
+.content {
+	box-sizing: border-box;
+	padding: 20px 0 0;
+	margin: 0 auto;
+}
+
+.content h1 {
+	margin: 19px 0 22px;
+}
+
+p {
+	margin: 19px 0;
+}
+
+.content footer {
+	margin: 40px 0 0;
+}
+
+.article-text > img {
+	margin: 18px auto;
+}
+
+.article-text img {
+	max-width: 100%;
+}
+
+.article-text figure img {
+	display: block;
+}
+
+.article-text figure caption {
+	display: block;
+}
+
+blockquote, pre {
+	width: 80%;
+	margin: 18px auto;
+}
+
+blockquote cite {
+	padding: 0 8px;
+}
+
+.content > footer {
+	margin: 30px 0 0;
+}
+
+nav.prevandnext {
+	padding: 0;
+	overflow: auto;
+}
+
+nav.prevandnext a {
+	display: block;
+	box-sizing: border-box;
+}
+
+nav.prevandnext .prev {
+	/*float: left;*/
+	text-align: left;
+}
+
+nav.prevandnext .prev span.num::before {
+	content: "‹ ";
+}
+
+nav.prevandnext .next {
+	/*float: right;*/
+	text-align: right;
+}
+
+nav.prevandnext .next span.num::after {
+	content: " ›";
+}
+
+nav.prevandnext ::before, nav.prevandnext ::after {
+	font-size: 1.5em;
+}

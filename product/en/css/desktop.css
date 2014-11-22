@@ -1,0 +1,91 @@
+@media screen and (min-width: 1100px) {
+	body {
+		font-size: 10px;
+	}
+
+	.global {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#global-header {
+		text-align: left;
+	}
+
+	#global-header .header-in {
+		width: 100%;
+	}
+
+	#global-header .header-in > * {
+		width: 760px;
+		margin: 0 auto;
+	}
+
+	.global h1 {
+		font-size: 4em;
+		margin: 35px 0;
+	}
+
+	.global h2 {
+		font-size: 2.2em;
+		margin: 15px 0;
+	}
+
+	div#cont.cont {
+		width: 100%;
+		margin: 0;
+	}
+
+	.content {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.content h1 {
+		width: 760px;
+		margin: 0.6em auto;
+	}
+
+	.article-text {
+		font-size: 1.8em;
+	}
+
+	.article-text > * {
+		display: block;
+		width: 760px;
+		margin: 36px auto;
+	}
+
+	.article-text img {
+		max-width: 920px;
+	}
+
+	.article-text figure {
+		width: 920px;
+	}
+
+	.article-text pre {
+		width: 920px;
+	}
+
+	.article-text figcaption {
+		margin: 16px auto 36px;
+	}
+
+	.content footer {
+		transition: all 200ms ease;
+	}
+
+	nav.prevandnext {
+		max-width: 100%;
+	}
+
+	#global-footer {
+		padding: 0;
+	}
+
+	nav.prevandnext a {
+		padding: 30px 150px;
+	}
+}

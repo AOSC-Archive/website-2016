@@ -1,0 +1,267 @@
+body {
+	font-family: 'Avenir Next', Avenir Next, Avenir, 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	color: #333;
+	background: #111;
+}
+
+.global {
+	font-family: 'Seravek', 'Seravek-Light', Seravek, 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	box-sizing: border-box;
+}
+
+header.global {
+	background: #000 url(dark-title.jpg) bottom no-repeat scroll;
+	background-size: cover;
+}
+
+header.global .header-in {
+	color: #FFF;
+	padding: 80px 0 50px;
+	margin: 0;
+}
+
+header.global a {
+	display: block;
+}
+
+header.global h1, h2 {
+	color: inherit;
+	font-weight: 400;
+	margin: 0;
+}
+
+header.global h1 {
+	font-weight: 400;
+	text-decoration: none;
+	padding: 20px 0 10px;
+}
+
+header.global h2 {
+	padding: 10px 0;
+	margin: 0;
+}
+
+p {
+	line-height: 1.55em;
+	margin: 25px 0;
+}
+
+p em {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.global a {
+	text-decoration: none;
+}
+
+.content {
+	font-weight: 400;
+	padding: 70px 0;
+	background: #FFF;
+	box-shadow: rgba(0, 0, 0, 0.124322) 0 0 4px;
+}
+
+.content h1:lang(en), .content h3:lang(en) {
+	font-family: 'Avenir Next', 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+}
+
+.content h1:lang(ja), .content h3:lang(ja) {
+	font-family: 'Avenir Next', 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+}
+
+.content h1:lang(zh), .content h3:lang(zh) {
+	font-family: 'Avenir Next', 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
+}
+
+.article-text h4:lang(en), .article-text p:lang(en), .article-text ul:lang(en), .article-text ol:lang(en), .article-text figure:lang(en), .article-text time:lang(en), .article-text address:lang(en) {
+	font-family: 'Avenir Next', Avenir Next, Avenir, 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+}
+
+.article-text h4:lang(ja), .article-text p:lang(ja), .article-text ul:lang(ja), .article-text ol:lang(ja), .article-text figure:lang(ja), .article-text time:lang(ja), .article-text address:lang(ja) {
+	font-family: 'Avenir Next', Avenir Next, Avenir, 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+}
+
+.article-text h4:lang(zh), .article-text p:lang(zh), .article-text ul:lang(zh), .article-text ol:lang(zh), .article-text figure:lang(zh), .article-text time:lang(zh), .article-text address:lang(zh) {
+	font-family: 'Avenir Next', Avenir Next, Avenir, 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Kaku Gotihc ProN', sans-serif;
+}
+
+.content h1 {
+	font-size: 3em;
+	font-weight: 500;
+	color: #333;
+	text-align: left;
+	margin: 19px 0 22px;
+}
+
+.article-text h3 {
+	font-size: 2.1em;
+	font-weight: bold;
+	margin: 19px 0 20px;
+}
+
+.article-text aside {
+	font-style: italic;
+}
+
+.article-text aside em {
+	font-style: normal;
+}
+
+.article-text p a {
+	color: #18B;
+}
+
+.article-text p code {
+	font-family: 'Menlo', monospace !important;
+	font-size: 15px;
+	background: #F0F0F0;
+	border-radius: 3px;
+	padding: 0 3px;
+}
+
+.article-text img {
+	border-radius: 3px;
+}
+
+.article-text > img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-text > p > img {
+	float: right;
+}
+
+.article-text blockquote {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-text pre {
+	font-family: 'Menlo', monospace;
+	font-size: 0.8em;
+	color: #FAFAFA;
+	background: #333;
+	background-image: linear-gradient(#404042, #252527);
+	border-radius: 3px;
+	box-shadow: inset rgba(0, 0, 0, 0.92) 0 1px 4px 0;
+	box-sizing: border-box;
+	padding: 0 2em 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: scroll;
+}
+
+.article-text pre * {
+	font-family: 'Menlo', monospace !important;
+}
+
+.article-text > canvas, .article-text figure canvas {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-text figcaption {
+	font-size: 0.875em;
+	color: #666;
+	text-align: center;
+}
+
+.article-text figure img {
+	margin: 0 auto 1em;
+}
+
+.content footer {
+	font-size: 1.6em;
+	font-weight: 300;
+	text-align: center;
+	margin: 60px 0 0 0;
+}
+
+.content footer a:hover {
+	text-decoration: underline;
+}
+
+nav.prevandnext {
+	font-family: 'Seravek-Light', Seravek, 'PT-Sans', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Kaku Gotihc ProN', 'Hiragino Sans GB', sans-serif;
+	margin-bottom: 6em;
+	transition: all 320ms ease;
+}
+
+nav.prevandnext a {
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.3em;
+	text-decoration: none;
+	width: 100%;
+}
+
+nav.prevandnext a div {
+	transition: all 320ms ease;
+}
+
+nav.prevandnext a div span {
+	line-height: 1.35em;
+	display: block;
+}
+
+nav.prevandnext a div span.num {
+	/*padding-bottom: 0.5em;*/
+}
+
+nav.prevandnext a div span.chapter-title {
+	font-size: 1.8em;
+}
+
+nav.prevandnext .prev:hover {
+	background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.00));
+	background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.00));
+	background: linear-gradient(left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.00));
+}
+
+nav.prevandnext .next:hover {
+	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.00));
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.00));
+	background: linear-gradient(right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.00));
+}
+
+nav.prevandnext .prev:hover div {
+	margin-left: -17px;
+}
+
+nav.prevandnext .next:hover div {
+	margin-right: -17px;
+}
+
+footer.global {
+	font-size: 1.6em;
+	font-weight: 300;
+	color: #FFF;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.6777777) 0 1px 1px;
+	background: #222 url(dark-footer.jpg) bottom scroll no-repeat;
+	background-size: cover;
+}
+
+footer.global .footer-in {
+	width: 100%;
+	padding: 0 0 90px;
+	margin: 0;
+	transition: all 320ms ease;
+}
+
+footer.global:hover .footer-in {
+	background: rgba(0, 0, 0, 0.35);
+}
+
+footer.global .footer-in div a {
+	text-decoration: underline;
+}

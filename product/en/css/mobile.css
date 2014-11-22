@@ -1,0 +1,55 @@
+@media screen and (max-width: 1099px) {
+	body {
+		font-size: 10px;
+	}
+
+	.global {
+		padding: 20px 60px 0;
+		margin: 0 auto;
+	}
+
+	#global-header {
+		text-align: left;
+		padding-top: 50px;
+	}
+
+	#global-header .header-in {
+		width: 100%;
+	}
+
+	.global h1 {
+		font-size: 4.5em;
+		margin: 35px 0;
+	}
+
+	.global h2 {
+		font-size: 2em;
+		margin: 15px 0;
+	}
+
+	div#cont.cont {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin: 0;
+	}
+
+	.content {
+		margin: 0 auto;
+		padding: 20px 30px 60px;
+	}
+
+	.article-text {
+		font-size: 1.8em;
+	}
+
+	.article-text > img {
+		max-width: 100%;
+	}
+
+	.content footer {
+		text-align: center;
+	}
+
+	nav.prevandnext {
+	}
+}

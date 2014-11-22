@@ -1,0 +1,52 @@
+<!--
+	Copyright (c) 2014 Joy Neop.
+	This HTML template is released with MIT License.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>{{ page.title }}</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="stylesheet" type="text/css" href="css/code.css">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/mutual.css">
+	<link rel="stylesheet" type="text/css" href="css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/chapter.css">
+	<script type="text/javascript" src="js/lib.js"></script>
+</head>
+<body class="chapter">
+	<div class="cont" id="cont">
+		<header class="global" id="global-header">
+			<div class="header-in">
+				<h1>{{ page.h1 }}</h1>
+				<h2>{{ page.h2 }}</h2>
+			</div>
+		</header>
+		<div class="content">
+			<section class="article-content">
+				<h1>{{ article.title }}</h1>
+				<div class="article-meta">
+					<span><i class="fa fa-user"></i>{{ article.author }}</span>
+				</div>
+				<div class="article-text">
+					{{ article.content }}
+				</div>
+			</section>
+		</div>
+		<footer class="global" id="global-footer">
+			<div class="footer-in foot-note">
+				<nav class="prevandnext" id="chapters-nav">
+					<a class="next" id="nav-next" href="{{ article.nextURL }}"><div id="nav-next-span">{{ article.nextTitle }}</div></a>
+					<a class="prev" id="nav-prev" href="{{ article.prevURL }}"><div id="nav-prev-span">{{ article.prevTitle }}</div></a>
+				</nav>
+				<div class="copyright">{{ meta.copyright }}</div>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
